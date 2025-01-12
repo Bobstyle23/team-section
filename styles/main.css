@@ -1,8 +1,7 @@
 /* NOTE: colors */
 .profile, .header {
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  flex-direction: column; }
 
 .profiles {
   display: grid;
