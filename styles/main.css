@@ -1,0 +1,98 @@
+/* NOTE: colors */
+.profile, .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.profiles {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.profile__introduction, .header__team {
+  font-size: 1.6rem;
+  line-height: 1.5; }
+
+.profile__job {
+  font-size: 1.8rem;
+  line-height: 1.55; }
+
+.profile__name, .header__description {
+  font-size: 2rem;
+  line-height: 1.4; }
+
+.header__title {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 500; }
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  background: linear-gradient(90deg, #f9fafb 0%, #d2d6db 100%);
+  padding: 1.6rem; }
+
+a:link,
+a:visited,
+a:hover,
+a:focused {
+  text-decoration: none;
+  color: #000; }
+
+button {
+  border: none; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.profile {
+  gap: 2.4rem; }
+  .profile__name {
+    font-weight: 600;
+    color: #171717;
+    margin-bottom: 0.4rem; }
+  .profile__job {
+    font-weight: 500;
+    color: #4338ca;
+    margin-bottom: 1.6rem; }
+  .profile__introduction {
+    color: #525252; }
+
+.profiles {
+  row-gap: 4.8rem; }
+
+.header {
+  margin-bottom: 4.8rem;
+  text-align: center; }
+  .header__team {
+    font-weight: 600;
+    color: #4338ca;
+    margin-bottom: 1.2rem; }
+  .header__title {
+    font-weight: 600;
+    color: #171717;
+    margin-bottom: 2rem; }
+  .header__description {
+    color: #525252; }
+
+.main {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 4.8rem 1.6rem;
+  box-shadow: 0 1px 2 0 rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=main.css.map */

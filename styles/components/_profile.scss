@@ -1,0 +1,23 @@
+.profile {
+  @extend %flexbox;
+  gap: 2.4rem;
+
+  &__name {
+    @extend %text-xl;
+    font-weight: 600;
+    color: $neutral-900;
+    margin-bottom: 0.4rem;
+  }
+
+  &__job {
+    @extend %text-lg;
+    font-weight: 500;
+    color: $indigo-700;
+    margin-bottom: 1.6rem;
+  }
+
+  &__introduction {
+    @extend %text-base;
+    color: $neutral-600;
+  }
+}
