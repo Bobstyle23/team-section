@@ -10,3 +10,9 @@
     padding: 6.4rem 1.6rem;
   }
 }
+
+@include respond-to($breakpoint-desktops) {
+  .main {
+    padding: 9.6rem 6.4rem;
+  }
+}

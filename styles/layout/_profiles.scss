@@ -11,3 +11,9 @@
     row-gap: 6.4rem;
   }
 }
+
+@include respond-to($breakpoint-desktops) {
+  .profiles {
+    padding: 0 3.2rem;
+  }
+}
