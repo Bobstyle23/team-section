@@ -75,6 +75,12 @@ img {
 .profiles {
   row-gap: 4.8rem; }
 
+@media (min-width: 48em) {
+  .profiles {
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    align-items: baseline;
+    column-gap: 3.2rem;
+    row-gap: 6.4rem; } }
 .header {
   margin-bottom: 4.8rem;
   text-align: center; }
@@ -89,10 +95,20 @@ img {
   .header__description {
     color: #525252; }
 
+@media (min-width: 48em) {
+  .header {
+    margin-bottom: 6.4rem; }
+    .header__title {
+      font-size: 4.8rem;
+      line-height: 1; } }
 .main {
   background-color: #fff;
   border-radius: 0.4rem;
   padding: 4.8rem 1.6rem;
   box-shadow: 0 1px 2 0 rgba(0, 0, 0, 0.5); }
+
+@media (min-width: 48em) {
+  .main {
+    padding: 6.4rem 1.6rem; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,3 +7,7 @@ $linear-gradient: linear-gradient(
   rgba(249, 250, 251, 1) 0%,
   rgba(210, 214, 219, 1) 100%
 );
+
+$breakpoint-tablets: "(min-width: 48em)";
+$breakpoint-large-tablets: "(min-width: 64em)";
+$breakpoint-desktops: "(min-width: 75em)";

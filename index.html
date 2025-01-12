@@ -27,11 +27,16 @@
       </header>
       <section class="profiles">
         <article class="profile">
-          <img
-            class="profile__image"
-            src="./img/joe.jpg"
-            alt="Picture of Joe Jackson"
-          />
+          <picture>
+            <source srcset="./img/desktop/joe.png" media="(min-width: 64em)" />
+            <source srcset="./img/tablet/joe.png" media="(min-width: 48em)" />
+            <img
+              class="profile__image"
+              src="./img/mobile/joe.png"
+              alt="Picture of Joe Jackson"
+            />
+          </picture>
+
           <div>
             <h3 class="profile__name">Joe Jackson</h3>
             <p class="profile__job">Founder & CEO</p>
@@ -44,11 +49,15 @@
         </article>
 
         <article class="profile">
-          <img
-            class="profile__image"
-            src="./img/ash.png"
-            alt="Picture of Ash Karter"
-          />
+          <picture>
+            <source srcset="./img/desktop/ash.png" media="(min-width: 64em)" />
+            <source srcset="./img/tablet/Image.png" media="(min-width: 48em)" />
+            <img
+              class="profile__image"
+              src="./img/mobile/ash.png"
+              alt="Picture of Ash Karter"
+            />
+          </picture>
           <div>
             <h3 class="profile__name">Ash Karter</h3>
             <p class="profile__job">Founder & CFO</p>
@@ -60,11 +69,21 @@
           </div>
         </article>
         <article class="profile">
-          <img
-            class="profile__image"
-            src="./img/farias.png"
-            alt="Picture of Farias Amed"
-          />
+          <picture>
+            <source
+              srcset="./img/desktop/farias.png"
+              media="(min-width: 64em)"
+            />
+            <source
+              srcset="./img/tablet/farias.png"
+              media="(min-width: 48em)"
+            />
+            <img
+              class="profile__image"
+              src="./img/mobile/farias.png"
+              alt="Picture of Farias Amed"
+            />
+          </picture>
           <div>
             <h3 class="profile__name">Farias Amed</h3>
             <p class="profile__job">Front End AI Engineer</p>
@@ -76,11 +95,18 @@
           </div>
         </article>
         <article class="profile">
-          <img
-            class="profile__image"
-            src="./img/sarah.png"
-            alt="Picture of Sarah Haust"
-          />
+          <picture>
+            <source
+              srcset="./img/desktop/sarah.png"
+              media="(min-width: 64em)"
+            />
+            <source srcset="./img/tablet/sarah.png" media="(min-width: 48em)" />
+            <img
+              class="profile__image"
+              src="./img/mobile/sarah.png"
+              alt="Picture of Sarah Haust"
+            />
+          </picture>
           <div>
             <h3 class="profile__name">Sarah Haust</h3>
             <p class="profile__job">Dev Ops</p>
