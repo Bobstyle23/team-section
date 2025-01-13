@@ -2,11 +2,7 @@
 $indigo-700: #4338ca;
 $neutral-900: #171717;
 $neutral-600: #525252;
-$linear-gradient: linear-gradient(
-  90deg,
-  rgba(249, 250, 251, 1) 0%,
-  rgba(210, 214, 219, 1) 100%
-);
+$linear-gradient: linear-gradient(to bottom, #f9fafb, #d2d6db);
 
 $breakpoint-tablets: "(min-width: 48em)";
 $breakpoint-large-tablets: "(min-width: 64em)";

@@ -39,7 +39,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   line-height: 1;
-  background: linear-gradient(90deg, #f9fafb 0%, #d2d6db 100%);
+  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
   padding: 1.6rem; }
 
 a:link,
@@ -108,13 +108,15 @@ img {
   background-color: #fff;
   border-radius: 0.4rem;
   padding: 4.8rem 1.6rem;
-  box-shadow: 0 1px 2 0 rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); }
 
 @media (min-width: 48em) {
   .main {
-    padding: 6.4rem 1.6rem; } }
+    padding: 6.4rem 1.6rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); } }
 @media (min-width: 75em) {
   .main {
-    padding: 9.6rem 6.4rem; } }
+    padding: 9.6rem 6.4rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); } }
 
 /*# sourceMappingURL=main.css.map */
